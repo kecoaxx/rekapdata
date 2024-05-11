@@ -1,0 +1,234 @@
+[
+	{
+		"Blok": "Agama",
+		"id": "1d07b68tJGW_UXLfwv3jvcdTv0nf9T-0x"
+	},
+	{
+		"Blok": "Bedah Dental I",
+		"id": "1T0ciFLy9Gfh0DYj-OV5DMQfhjsN7fnSU"
+	},
+	{
+		"Blok": "Bedah Dental II",
+		"id": "1I1nwwMniEXr1AkVVO-S3FoDzHUG9T61G"
+	},
+	{
+		"Blok": "Biomaterial I",
+		"id": "1CeKVtRJ6aRijXgVJtnqDqmV21LbuOYS3"
+	},
+	{
+		"Blok": "Biomaterial II",
+		"id": "1ASD4SRmJ_ZTTwfxzNFYi17QCPhFieiIF"
+	},
+	{
+		"Blok": "Biomedik I",
+		"id": "1dSi1-LdASsyV1GYOCnyaNJ196jgz_qM-"
+	},
+	{
+		"Blok": "Biomedik II",
+		"id": "1zRMn1AHmsZ_BnY7bSuQGXKTiOwYPIau_"
+	},
+	{
+		"Blok": "Etik dan Humaniora",
+		"id": "1w-vyAwnbytiu5KcFIzR2ay7Pukpwirp5"
+	},
+	{
+		"Blok": "Filsafat",
+		"id": "1DfOlAzKmK9_Mj2PW5zPwf2HZYH5k-8KW"
+	},
+	{
+		"Blok": "Gangguan Fungsi Sistem Stogmatognatik V",
+		"id": "16L4FWhjg5PcaSsHvun98lOE2FFGYQuqe"
+	},
+	{
+		"Blok": "Gangguan Fungsi Stomatognatik I",
+		"id": "1dMSVX4lWmn0phhcMpyLmN7lJFgOMJwQm"
+	},
+	{
+		"Blok": "Gangguan Fungsi Stomatognatik II",
+		"id": "1F8WGbAIrarD60x0EIJ_um1NYA1lGFuXH"
+	},
+	{
+		"Blok": "Gangguan Fungsi Stomatognatik III",
+		"id": "1SvT_LcDVpbx5K1NF5sTV6WsCu7cyudmz"
+	},
+	{
+		"Blok": "Gangguan Fungsi Stomatognatik IV",
+		"id": "15aBsypdqdH-axNhpUl1xqLI1m1CiPqWM"
+	},
+	{
+		"Blok": "IPE I",
+		"id": "1RdjVMoEp3uDcWiZIwX1m6uVA15FHr6mq"
+	},
+	{
+		"Blok": "IPE II",
+		"id": "1_EhMZ3IZ9Yw_P6MyptNDdQUy0cqnZtap"
+	},
+	{
+		"Blok": "IPE III",
+		"id": "1dhilUX8HV26fuQZM60fYzL5ye7iqm6Ja"
+	},
+	{
+		"Blok": "IPE IV",
+		"id": "15w4_5iJ2Tl3TDQBVlyJDVQ0Hb_WP6rpp"
+	},
+	{
+		"Blok": "Ilmu Kedokteran Klinik I",
+		"id": "10gWPFv45VghaHMB5JOJttQgIsLwSve22"
+	},
+	{
+		"Blok": "Ilmu Kedokteran Klinik II",
+		"id": "1AQ89s3D115SAZxC_Wq3MiauxyuDTWO5q"
+	},
+	{
+		"Blok": "KKN",
+		"id": "1_GHZ5n6bQij8UV40ZvjEHcqKmVi8xapW"
+	},
+	{
+		"Blok": "Kedokteran Gigi Dasar I",
+		"id": "1TR0_TGCoqwq0DsbIE2lfL_JTgchs4DYV"
+	},
+	{
+		"Blok": "Kedokteran Gigi Dasar II",
+		"id": "1TzmjN7tlPTBAF2I9TkA3CBb1nV55Qv3t"
+	},
+	{
+		"Blok": "Kedokteran Gigi Forensik",
+		"id": "1IHbyrpDNSoiJO79L1pgQI3yL_n-el2bv"
+	},
+	{
+		"Blok": "Kedokteran Gigi Pariwisata I",
+		"id": "1Crxlwhh_wXhjBJFc6Un2W5PlaZw0PHWm"
+	},
+	{
+		"Blok": "Kedokteran Gigi Pariwisata II",
+		"id": "1WPsJ7WpdpoB6Q5ABJ9O3VSavsKiEWY-_"
+	},
+	{
+		"Blok": "Kedokteran Gigi Pariwisata III",
+		"id": "1anHbKXKz_gBCQK-a8qr5rx06vixs7Q16"
+	},
+	{
+		"Blok": "Kedokteran Gigi Pariwisata IV",
+		"id": "1EGw2Cx5m1I-SyuRJiahaSMaFUoteXLaJ"
+	},
+	{
+		"Blok": "Kegawatdaruratan",
+		"id": "1qxByXsqZKOM7BWp410Ha3136w4x3V9Ez"
+	},
+	{
+		"Blok": "Kelainan Jaringan Keras Gigi dan Jaringan Pulpa I",
+		"id": "1glPHY5pjWKnz1TYtXDPCCkszHWcoBnAm"
+	},
+	{
+		"Blok": "Kelainan Jaringan Keras Gigi dan Jaringan Pulpa II",
+		"id": "1o_qLHqw44Yii8H_BtbnKFdhwttJv9nP7"
+	},
+	{
+		"Blok": "Kelainan Jaringan Keras Gigi dan Jaringan Pulpa III",
+		"id": "1JsiqPhI8OyR-_2z1FTkl1ezFNt8UH4M4"
+	},
+	{
+		"Blok": "Kelainan Jaringan Lunak I",
+		"id": "1XdS1NGrSIQxkxEoy4x2XKrlEfxdLQWdd"
+	},
+	{
+		"Blok": "Kelainan Jaringan Lunak II",
+		"id": "15Ywrg8k7EhxLKzCaZEAvmn0yInN6jjaJ"
+	},
+	{
+		"Blok": "Kelainan Tumbuh Kembang I",
+		"id": "1dou_6fJqoi9pgUaZLI7pri01hARJjMI-"
+	},
+	{
+		"Blok": "Kelainan Tumbuh Kembang II",
+		"id": "1sMr-l7UHs4c7FN3rjzDsgPmGYB7rD3vy"
+	},
+	{
+		"Blok": "Kewarganegaraan",
+		"id": "1uEhNt-chcNwZ78fdK035KggYX2aoPeOy"
+	},
+	{
+		"Blok": "Manajemen Kesehatan",
+		"id": "1faFYKmD8IcnObPIgp9Sorut47uEqW_gL"
+	},
+	{
+		"Blok": "Manajemen Perilaku",
+		"id": "1-wnfS3AYRSRYctTVNvFV8LMFr3l9eVyE"
+	},
+	{
+		"Blok": "Metode Pembelajaran",
+		"id": "1fSUn1yiIrfcZiuLkw-1B8zXc1Uj9cBXc"
+	},
+	{
+		"Blok": "Metodologi Penelitian",
+		"id": "19lCQzVaxNVwDF4KDp6uyEJAgZaeVHZVW"
+	},
+	{
+		"Blok": "Neoplasma",
+		"id": "1ZkYuNXs943T73wJ8iw2Jx4sHSg1TW1Dc"
+	},
+	{
+		"Blok": "Pancasila",
+		"id": "1qmXd4qQikvu0ssnbbZwB6sKui8hYcAJc"
+	},
+	{
+		"Blok": "Promosi dan Pencegahan Kedokteran Gigi Masyarakat",
+		"id": "1ZfDLTw3dIqpTO8oVF0jVWtzWfwkeDO_T"
+	},
+	{
+		"Blok": "Sistem Stomatognatik I",
+		"id": "10xiV5creSTSUxhPEbl7vACDQM9SAhLiL"
+	},
+	{
+		"Blok": "Skills Lab Diagnosis Oral",
+		"id": "1Szex0O_d7qOl4d2zUbPu_HEEJR7-TgXX"
+	},
+	{
+		"Blok": "Skills Lab Integrasi I",
+		"id": "1H92jWNx4a47555rltxVsEFTQvdTAmOH7"
+	},
+	{
+		"Blok": "Skills Lab Integrasi II",
+		"id": "1ZwpgrxeaPvyikQ3zhsAl_do97ehXYHcF"
+	},
+	{
+		"Blok": "Skills Lab Integrasi III",
+		"id": "1NnZScQAlxqafudewL1ssrQcF3zBGmvjI"
+	},
+	{
+		"Blok": "Skills Lab Integrasi IV",
+		"id": "1_mmb_YtCPHWBAvv7oDMPrP85bt-qSHks"
+	},
+	{
+		"Blok": "Skills Lab Integrasi V",
+		"id": "12H669woI-6bcjpzVZqunGRXTqPw7GqQm"
+	},
+	{
+		"Blok": "Skills Lab Konservasi Gigi I",
+		"id": "1zx9KQY5ZwgMCjLmkn9cRc14nQ3UMFlv3"
+	},
+	{
+		"Blok": "Skills Lab Ortodonsia",
+		"id": "1b7Dw8XOvvl5nSKOAKDFc8vBuosi08hKB"
+	},
+	{
+		"Blok": "Skills Lab Prostodonsia I",
+		"id": "1d8qxgJTCICS6nc0CFt4UdnFS6w4fv2Zr"
+	},
+	{
+		"Blok": "Skills Lab Prostodonsia II",
+		"id": "1VTIFoWCZcW0fRZA-MJnHRlNp2UvPRtdU"
+	},
+	{
+		"Blok": "Skills lab Konservasi Gigi II",
+		"id": "18SQ37m49DEKaz0bVdREfpLgIFTFHYFDp"
+	},
+	{
+		"Blok": "Tumbuh Kembang I",
+		"id": "1vLsRvA9aEizmVUWCSpdnjUSpX9bacRbZ"
+	},
+	{
+		"Blok": "Tumbuh Kembang II",
+		"id": "1Acf5oX0q-bbX_2kDtIMT--9nYuLxeNCW"
+	}
+]

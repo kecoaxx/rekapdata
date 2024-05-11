@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Rekap Data</title>
+    <link rel="icon" type="image/x-icon" href="/assets/unud.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&display=swap');
+
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        font-family: sans-serif;
+        }
+
+        body{
+            height: 100vh;
+            background: #e1edf9;
+        }
+
+        .wrapper{
+        padding-top: 20px;
+        display: flex;
+        flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+        justify-content: center; /* Center align flex items horizontally */
+        }
+
+        .container{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0;
+        vertical-align: top;
+        }
+
+        .form_container{
+        background: white;
+        padding: 30px;
+        border-radius: 4px;
+        display: inline-block;
+        margin: 30px 30px;
+        justify-content: center;
+        align-items: center;
+        vertical-align: top;
+        max-width: 25px;
+        }
+
+        .wrapper .form_container{
+        background: #fff;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 3px;
+        min-width: 500px;
+
+        }
+
+        .heading{
+        background: #015a80;
+        margin: -30px;
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        margin-bottom: 35px;
+        padding: 10px;
+        cursor: pointer;
+        user-select: none;
+        transition: font-size 0.3s;
+        
+        }
+
+        .heading:hover {
+        font-size: 29px; /* Increase font-size on hover */
+        }
+
+        .header{
+        background: #015a80;
+        text-align: center;
+        color: white;
+        font-size: 19px;
+        padding: 10px;
+        
+        }
+
+        .wrapper .form_item{
+        margin-bottom: 25px;
+        overflow: hidden;
+        
+        }
+
+        .form_wrap.fullname,
+        .form_wrap.select_box{
+        display: flex;
+        }
+
+        .form_wrap.fullname .form_item,
+        .form_wrap.select_box .form_item{
+        width: 50%;
+        }
+
+        .form_wrap.fullname .form_item:first-child,
+        .form_wrap.select_box .form_item:first-child{
+        margin-right: 4%;
+        }
+
+        .wrapper .form_container .form_item label{
+        display: block;
+        margin-bottom: 5px;
+        }
+
+        .form_item input[type="text"],
+        .form_item select{
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #dadce0;
+        border-radius: 3px;
+        }
+
+        .form_item input[type="text"]:focus{
+        border-color: #6271f0;
+        }
+
+        .search{
+        width: 100%;
+        padding-top: 30px;
+        font-size: 20px;
+        border-radius: 3px;
+        display:flex;
+        align-items: flex-start;
+        justify-content: center;
+        }
+
+        .search input[type="text"]{
+        /* font-size: 24px; */
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+        transition: font-size 0.3s;
+        }
+        .search input[type="text"]:hover{
+        font-size: 29px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .search input[type="text"]:focus{
+        font-size: 29px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn input[type="submit"]{
+        background: #1598d4;
+        border: 1px solid #1598d4;
+        padding: 10px;
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 1px;
+        border-radius: 3px;
+        cursor: pointer;
+        color: #fff;
+        }
+
+        table {
+        margin: 0 auto; /* Center the table itself */
+        border-collapse: collapse; /* Collapse border spacing */
+        width: 100%; /* Set the width of the table */
+        border: 1px solid #fff;
+        border-radius: 10px;
+        }
+
+        table td {
+        /* background-color: #007F9B; */
+        background-color: #4D8CB5;
+        /* background-color: #394955; */
+        }
+
+        th, td {
+            padding: 8px; /* Add padding to table cells */
+            border: 5px solid #fff; /* Add border to table cells */
+            min-width: 200px; /* Atur lebar minimum sel nama menjadi 200px */
+            
+            font-weight: bold; /* Bold font for table header */
+            font-family: sans-serif;
+            font-size: 25px;
+            }
+
+            th {
+            background-color: rgb(102, 168, 233);
+            color: #fff; /* Text color for table header */
+            }
+
+            tr th{
+            color: rgb(17, 58, 99); 
+            }
+
+        td a{
+            text-decoration: none; 
+            color: white;
+        }
+
+        td:hover, a:hover{
+            background-color: #015a80;
+        }
+
+        form.example input[type=text] {
+            padding: 10px;
+            font-size: 25px;
+            border: 0px solid #000;
+            float:inline-start;
+            /* width: 80%; */
+            background: #fff;
+            border-radius: 5px;
+        }
+        
+        /* Style the submit button */
+        form.example button {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            background: #015a80;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none; /* Prevent double borders */
+            cursor: pointer;
+        }
+        
+        form.example button:hover {
+            background: #0b7dda;
+        }
+        
+        /* Clear floats */
+        form.example::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .form_item{
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body onload="toggleForm('sarjana'), toggleForm('profesi')">
+    <div class="header">
+        <br>
+        <h1>Spreadsheet Rekap Absensi</h1>
+        <br>
+        <h3>Tekan "Sarjana" atau "Profesi" untuk membuka list dari mata kuliah/blok masing-masing program <br>
+        atau cari kata kunci menggunakan kolom pencarian</h3>
+        <br>
+    </div>
+    <div class="search">
+    <form class="example" onsubmit="return false;">
+        <label for="search">Cari Mata Kuliah/Blok:</label>
+        <div class="input-wrapper">
+            <input type="text" name="search" id="search" oninput="searchTable()">
+        </div>
+        </form>
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="form_container" id="sarjana">
+                <div class="heading" id="sarjana" onclick="toggleForm('sarjana')">
+                    <h2>Sarjana</h2>
+                </div>
+                <div class="form_item" id="sarjana">
+                    <table>
+                        <% for(const itemBlok of Blok) { %>
+                        <tr>
+                            <td>
+                                <a href="https://docs.google.com/spreadsheets/d/<%= itemBlok.id %>" target="_blank">
+                                    <%= itemBlok.Blok %>
+                                </a>
+                            </td>
+                        </tr>
+                        <% } %>
+                    </table>
+                </div>
+            </div>
+            <div class="form_container" id="profesi">
+                <div class="heading" id="profesi" onclick="toggleForm('profesi')">
+                    <h2>Profesi</h2>
+                </div>
+                <div class="form_item" id="profesi">
+                    <table>
+                        <% for(const itemMatkul of Matkul) { %>
+                        <tr>
+                            <td>
+                                <a href="https://docs.google.com/spreadsheets/d/<%= itemMatkul.id %>" target="_blank"><%= itemMatkul.MataKuliah %></a>
+                            </td>
+                        </tr>
+                        <% } %>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function openForm(id) {
+            var container = document.getElementById(id);
+            var formItem = container.querySelector('.form_item');
+            formItem.style.display = 'block';
+            container.style.maxHeight = 'max-content';
+        }
+        
+        function toggleForm(id) {
+            var container = document.getElementById(id);
+            var formItem = container.querySelector('.form_item');
+            var maxHeight = formItem.style.display === 'none' ? 'max-content' : '0px';
+            formItem.style.display = formItem.style.display === 'none' ? 'block' : 'none';
+            container.style.maxHeight = maxHeight;
+        }
+        function searchTable() {
+            openForm('sarjana');
+            openForm('profesi');
+            
+            var input, filter, tables, table, tr, td, i, txtValue;
+            input = document.querySelector('.search input');
+            filter = input.value.toUpperCase();
+            tables = document.querySelectorAll('.form_item table');
+        
+            tables.forEach(function (table) {
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[0];
+                    if (td) {
+                        txtValue = td.textContent || td.innerText;
+                        if (txtValue.toUpperCase().includes(filter)) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }
+                }
+            });
+        }
+        
+    </script>
+</body>
+</html>
